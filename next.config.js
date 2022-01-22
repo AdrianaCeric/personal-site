@@ -1,2 +1,7 @@
-const withNextra = require('nextra')('nextra-theme-blog', './theme.config.js')
+// next.config.js
+const withNextra = require('nextra')({
+  theme: 'nextra-theme-blog',
+  themeConfig: './theme.config.js',
+  unstable_staticImage: true
+})
 module.exports = withNextra()
