@@ -12,8 +12,7 @@ export default {
   ),
   footer: (
     <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Your Name.
-      <a href="/feed.xml">RSS</a>
+      <time>{YEAR}</time> © Adriana Ceric
       <style jsx>{`
         a {
           float: right;
