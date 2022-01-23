@@ -34,7 +34,7 @@ h6 {
   font-variation-settings: 'wght' 650;
 }
 h1 {
-  font-variation-settings: 'wght' 850;
+  font-variation-settings: 'wght' 550;
 }
 h2 {
   font-variation-settings: 'wght' 750;
@@ -57,7 +57,7 @@ img.next-image {
 }
 
 .prose a {
-  color: #0074de;
+  color: #ee5a5a;
 }
 
 .nav-line .nav-link {
