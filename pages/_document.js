@@ -10,7 +10,7 @@ class MyDocument extends Document {
     const meta = {
       title: 'Adriana Ceric',
       description: 'Welcome to my website! View my projects here!.',
-      image: 'images/waterloo2.png'
+      image: 'public/images/waterloo2.png'
     }
 
     return (
@@ -23,7 +23,7 @@ class MyDocument extends Document {
           <meta property="og:title" content={meta.title} />
           <meta property="og:image" content={meta.image} />
           <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:site" content="@yourname" />
+          <meta name="twitter:site" content="@adriyuhh" />
           <meta name="twitter:title" content={meta.title} />
           <meta name="twitter:description" content={meta.description} />
           <meta name="twitter:image" content={meta.image} />
