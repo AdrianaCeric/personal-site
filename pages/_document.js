@@ -8,8 +8,9 @@ class MyDocument extends Document {
 
   render() {
     const meta = {
-      title: 'Adriana Ceric',
-      description: 'Welcome to my website! View my projects here!.',
+      title: "Adriana Ceric's Personal Site",
+      description:
+        "Adriana Ceric's Personal Site. View my projects, experiences and more.",
       image: 'public/images/waterloo2.png'
     }
 
