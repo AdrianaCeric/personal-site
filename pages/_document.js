@@ -11,7 +11,7 @@ class MyDocument extends Document {
       title: "Adriana Ceric's Personal Site",
       description:
         "Adriana Ceric's Personal Site. View my projects, experiences and more.",
-      image: '.../public/images/waterloo2.png'
+      image: 'public/images/waterloo2.png'
     }
 
     return (
