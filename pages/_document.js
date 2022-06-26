@@ -10,7 +10,7 @@ class MyDocument extends Document {
     const meta = {
       title: "Adriana Ceric's Personal Site",
       description:
-        "Adriana Ceric's Personal Site. View my projects, experiences and more.",
+        "I'm a Civil Engineering student at UWaterloo interested in (both physical and digital) infrastructure, transit development and smart cities.",
       image: 'public/images/waterloo2.png'
     }
 
