@@ -6,7 +6,7 @@ tag: urban planning, python, accessibility
 author: You
 ---
 
-# Analyzing Accessibility in the Waterloo Region
+# Exploring Accessibility in the Waterloo Region
 
 I recently came across [UrbanAccess](https://github.com/UDST/urbanaccess) on GitHub and I thought it was magic. Since then I've gained a bit more of how to read and write code, but I still think the fact that we can visualize complex urban forms into simple visualizations is still very magical and powerful to me. There was no other option than to explore it. 
 
