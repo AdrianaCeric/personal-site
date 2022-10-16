@@ -3,7 +3,6 @@ title: Exploring Accessibility in the Waterloo Region
 date: 2022/8/3
 description: Case studies, exploration and local discovery
 tag: urban planning, python, accessibility
-author: You
 ---
 
 # Exploring Accessibility in the Waterloo Region

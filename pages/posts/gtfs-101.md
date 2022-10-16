@@ -3,7 +3,6 @@ title: An Intro to GTFS
 date: 2022/10/16
 description: Why GTFS matters and why it's important for the transit ecosystem
 tag: gtfs, transit, open data
-author: You
 ---
 
 # An Intro to GTFS
