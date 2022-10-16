@@ -28,17 +28,17 @@ This is where Portland, Oregon comes in. Yeah I know, super random, but Portland
 ![old google maps](../../public/images/vintage-google.png)
 <sub>Google Transit in 2009. **Credits**: Google</sub>
 
-Now we can officially get into what GTFS is! It stands for "Google Transit Feed Specification" (or used to). It's a standardized way to organize transit data which consists of stops, trip names, route names in a ZIP file containing lots of [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) (think Excel) in the form of text files which have a .txt extension.
+Now we can officially get into what GTFS is! It stands for "Google Transit Feed Specification" (or used to). It's a standardized way to organize transit data. It consists of information like stops, schedules, and route names in a ZIP file containing lots of [CSV files](https://en.wikipedia.org/wiki/Comma-separated_values) (Excel sheets are CSV files!) in the form of text files.
 
 Here's how it's broken down:
 
 ![drawing](../../public/images/drawing-gtfs.jpg)
 
-Each text file has it's own information, say stop times and agency name separated by commas:
+Each text file (with a .txt extension) has it's own information, say stop times and agency name, separated by commas:
 
 ![txt file](../../public/images/txt-file.png)
 
-Sure, TXT files aren't super sophisticated. But that's the point: it's *simple*. **Any** transit agency, big or small can simply export a bunch of CSV files from Excel with specific names like routes.txt into a folder, zip it, and send it to Google Transit. Agencies like Trimet also automate this process! There are definitely ways to make it easier for the data to be managed which I'll go over in the last part.
+Sure, TXT files aren't super sophisticated. But that's the point: it's *simple*. **Any** transit agency, big or small can simply export a bunch of CSV files from Excel with specific names like routes.txt into a folder, zip it, and send it to Google Transit. Agencies like Trimet also automate this process!
 
 Soon enough, [many more transit agencies](http://www.gtfs-data-exchange.com/agencies) hopped on board. Most of them are large and established and based in North America. To reflect this growth, the "Google" in Google Transit Data Specification was changed to "General" because the data was slowly being used by many [third-party apps and transit planners around the world](https://gtfs.org/resources/apps/). Tech giants like Google continue to have a lot of stigma surrounding privacy and data, so renaming GTFS to something more neutral allows it to be more approachable and flexible for all uses. 
 
