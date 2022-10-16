@@ -17,7 +17,7 @@ As an example, let's find transit route options from Toronto's Union Station to 
 
 Have you ever wondered how Google does this? You're in the right place! First, let's time travel back to the humble beginnings of Google Transit.
 
-Back in 2002, trip planning information was only available for cars. If you wanted to plan your 2002 high school grad road trip, you were in luck. Finding out a bus route, however, was not as easy to figure out if you weren't a local.
+Back in 2002, trip planning information was only available for cars. If you wanted to plan your 2002 high school grad road trip, you were in luck. Figuring out bus directions, however, was not as easy if you weren't a local.
 
 Some Google software engineers, namely [Chris Harrelson](https://twitter.com/chrishtr?lang=en), noticed this gap in Google Maps' trip planner. They used their [20% time](https://www.cnbc.com/2021/12/16/google-20-percent-rule-shows-exactly-how-much-time-you-should-spend-learning-new-skills.html#:~:text=Enter%3A%20Google's%20%E2%80%9C20%25%20time,wrote%20in%20their%20IPO%20letter.) to make [Google Transit](https://developers.google.com/transit), a platform that could provide transit directions with the efficiency and accuracy car trip planners had at the time.
 
