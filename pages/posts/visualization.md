@@ -8,7 +8,7 @@ author: You
 
 # Exploring Accessibility in the Waterloo Region
 
-I recently came across [UrbanAccess](https://github.com/UDST/urbanaccess) on GitHub and I thought it was magic. Since then I've gained a bit more of how to read and write code, but I still think the fact that we can visualize complex urban forms into simple visualizations is still very magical and powerful to me. There was no other option than to explore it. 
+I recently came across [UrbanAccess](https://github.com/UDST/urbanaccess) on GitHub and I thought it was magic. Since then I've gained more experience in how to read and write code, but I still think the fact that we can visualize complex urban forms into simple visualizations is still very magical to me. I had to explore it.
 
 UrbanAccess is a tool that gathers data from [Open Street Map (OSM)](https://www.openstreetmap.org/#map=2/63.3/-109.3) and uses a network tool called [Pandana](http://udst.github.io/pandana/) which measures accessibility and shortest distances to graph street notes and routes. These tools ultimately help measure accessibility in a given city or area. Using just a few lines of Python code, this free, open-source tool can be used by the general public, urban planners, civil engineers, firms, municipalities, government, universities and more. 
 
@@ -17,11 +17,11 @@ Visualizing accessibility in a region can help municipalities understand where t
 In this post, I'm going to do some high-level analysis on accessibility of transit networks and bike paths in two cities: Waterloo  and Toronto in Canada. This is the culmination of a series of explorations using these tools for the first time, so it's pretty exciting!
 
 ---
-Urbanaccess supports every city that Open Street Map gathers data in, so feel free to try out some analyses of your own in a city of your choice!. You can use the code I used by accessing this [repository]().
+UrbanAccess supports every city that Open Street Map gathers data in, so feel free to try out some analyses of your own in a city of your choice!. You can use the code I used by accessing this [repository]().
 
 Contact me if you have any questions about this post or if you just want to nerd about this tool/transit with someone.
 
-Time to explore!
+MY exploration follows:
 ---
 The city boundaries in this project are loosely defined as in they do not encompass the exact legal boundaries of each city but are very close; I used [bbox finder](http://bboxfinder.com/#0.000000,0.000000,0.000000,0.000000) to get a rough perimeter of the area to analyze. 
 
@@ -39,6 +39,6 @@ You might have a lot of questions. Don't worry, same! There's a lot to unpack he
 
 Over time, I hope to get some of these answers and update this post when that time comes. For now, I'm just happy my code ran and that I was able to learn so much about GTFS/OMSnx/Pandana/Open Street Map along the way. Hope you learned more about urban data visualization and/or got a newfound spark to create something of your own. 
 
-Until next time (or on an updated version of this exploration post), 
+Until next time (or a more polished version of this post),
 
 Adriana
