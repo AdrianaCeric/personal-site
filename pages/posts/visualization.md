@@ -7,7 +7,7 @@ tag: urban planning, python, accessibility
 
 # Exploring Accessibility in the Waterloo Region
 
-I recently came across [UrbanAccess](https://github.com/UDST/urbanaccess) on GitHub and I thought it was magic. Since then, I've picked up a lot more programming concepts, but when I see complex urban forms are simplified into graphs, I can't help but think that software is magical. I had to start exploring it and this marks the beginning of this deep dive!
+I recently came across [UrbanAccess](https://github.com/UDST/urbanaccess) on GitHub and I thought it was magic. Since then, I've picked up a lot more programming concepts, but when I see complex urban forms simplified into graphs, I can't help but think that there's still magic to software. I had to start exploring it. This marks the beginning of my deep dive!
 
 For this exploration, I used UrbanAccess. It's a tool that gathers data from [Open Street Map (OSM)](https://www.openstreetmap.org/#map=2/63.3/-109.3) and uses a network tool called [Pandana](http://udst.github.io/pandana/) to measure accessibility and shortest distances to ultimately graph street nodes and routes. The purpose of these tools is to measure accessibility in a given city or area. This is the magical part: using just a few lines of Python code, this free, open-source tool can be used by the general public, urban planners, civil engineers, firms, municipalities, government, universities and more. Say goodbye to Jupyter Notebooks with hundreds of lines and hello to 3 lines of code.
 
@@ -37,6 +37,6 @@ You might have a lot of questions. Don't worry, same! There's a lot to unpack he
 
 Over time, I hope to get some of these answers and update this post when that time comes. For now, I'm just happy my code ran and that I was able to learn so much about GTFS/OMSnx/Pandana/Open Street Map along the way. Hope you learned more about urban data visualization and/or got a newfound spark to create something of your own. 
 
-Until next time (or a more polished version of this post),
+More to come,
 
 Adriana
