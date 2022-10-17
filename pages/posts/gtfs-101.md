@@ -51,6 +51,6 @@ This is why I'm such an advocate for GTFS. Here's why:
 
 As with anything, there are inconsistencies with GTFS. Some small transit agencies still don't have the technical expertise and/or trust in other third-parties to use their transit data. How can we make GTFS *even easier* to use? Companies like [Arcadis IBI Group](https://www.ibigroup.com/ibi-products/transit-data-tools/) are making GTFS data more accessible for small transit agencies by making open-sourced platforms that display the data in an easy format! I'm still in the process of discovering what new GTFS innovations are out there, but one thing I've noticed along the way is that we need more builders/hackers in the transit industry. Will you be one?
 
-I personally hope to be; I'm excited for what I can contribute to GTFS this year where it will lead. I hope you're inspired to get started too. [Reach out](mailto:adriana.ceric@gmail.com) if you are or if I can improve this article in any way. 
+I personally hope to be; I'm excited for what I can contribute to GTFS this year and where that will lead. In turn, I hope you're inspired to get started too. [Reach out](mailto:adriana.ceric@gmail.com) if you are or if I can improve this article in any way. 
 
 If you read this far, I urge you to switch tabs from cars to transit next time you're searching for directions. After all, a transit agency near you worked hard to make that possible.
