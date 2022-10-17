@@ -55,3 +55,7 @@ As with anything, there are inconsistencies with GTFS. Some small transit agenci
 I personally hope to be; I'm excited for what I can contribute to GTFS this year and where that will lead. In turn, I hope you're inspired to get started too. [Reach out](mailto:adriana.ceric@gmail.com) if you are or if I can improve this article in any way. 
 
 If you read this far, I urge you to switch tabs from cars to transit next time you're searching for directions. After all, a transit agency near you worked hard to make that possible.
+
+Hope you get to point B,
+
+Adriana
