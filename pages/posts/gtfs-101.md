@@ -3,7 +3,7 @@ title: An Intro to GTFS
 date: 2022/10/16
 description: Why GTFS matters and why it's important for the transit ecosystem
 tag: gtfs, transit, open data
-image: ../../public/images/google-maps.jpg
+image: https://aceric.vercel.app/images/google-maps.jpg
 ---
 
 # An Intro to GTFS
