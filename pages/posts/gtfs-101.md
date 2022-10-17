@@ -40,7 +40,7 @@ Each text file (with a .txt extension) has it's own information, say stop times 
 
 Sure, TXT files aren't super sophisticated. But that's the point: it's *simple*. **Any** transit agency, big or small can simply export a bunch of CSV files from Excel with specific names like routes.txt into a folder, zip it, and send it to Google Transit. Agencies like Trimet also automate this process!
 
-Soon enough, [many more transit agencies](http://www.gtfs-data-exchange.com/agencies) hopped on board. Most of them are large and established and based in North America. To reflect this growth, the "Google" in Google Transit Data Specification was changed to "General" because the data was slowly being used by many [third-party apps and transit planners around the world](https://gtfs.org/resources/apps/). Tech giants like Google continue to have a lot of stigma surrounding privacy and data, so renaming GTFS to something more neutral allows it to be more approachable and flexible for all uses. 
+Soon enough, [many more transit agencies](http://www.gtfs-data-exchange.com/agencies) hopped on board. Most of them are large, established and based in North America. To reflect this growth, the "Google" in Google Transit Data Specification was changed to "General" because the data was slowly being used by many [third-party apps and transit planners around the world](https://gtfs.org/resources/apps/). Tech giants like Google continue to have a lot of stigma surrounding privacy and data, so renaming GTFS to something more neutral allows it to be more approachable and flexible for all uses. 
 
 This is why I'm such an advocate for GTFS. Here's why: 
 - It's open-source; any individual developer, company, startup or agency can use the data provided by transit agencies.

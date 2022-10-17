@@ -7,20 +7,19 @@ tag: urban planning, python, accessibility
 
 # Exploring Accessibility in the Waterloo Region
 
-I recently came across [UrbanAccess](https://github.com/UDST/urbanaccess) on GitHub and I thought it was magic. Since then I've gained more experience in how to read and write code, but I still think the fact that we can visualize complex urban forms into simple visualizations is still very magical to me. I had to explore it.
+I recently came across [UrbanAccess](https://github.com/UDST/urbanaccess) on GitHub and I thought it was magic. Since then, I've picked up a lot more programming concepts, but when I see complex urban forms are simplified into graphs, I can't help but think that software is magical. I had to start exploring it and this marks the beginning of this deep dive!
 
-UrbanAccess is a tool that gathers data from [Open Street Map (OSM)](https://www.openstreetmap.org/#map=2/63.3/-109.3) and uses a network tool called [Pandana](http://udst.github.io/pandana/) which measures accessibility and shortest distances to graph street notes and routes. These tools ultimately help measure accessibility in a given city or area. Using just a few lines of Python code, this free, open-source tool can be used by the general public, urban planners, civil engineers, firms, municipalities, government, universities and more. 
+For this exploration, I used UrbanAccess. It's a tool that gathers data from [Open Street Map (OSM)](https://www.openstreetmap.org/#map=2/63.3/-109.3) and uses a network tool called [Pandana](http://udst.github.io/pandana/) to measure accessibility and shortest distances to ultimately graph street nodes and routes. The purpose of these tools is to measure accessibility in a given city or area. This is the magical part: using just a few lines of Python code, this free, open-source tool can be used by the general public, urban planners, civil engineers, firms, municipalities, government, universities and more. Say goodbye to Jupyter Notebooks with hundreds of lines and hello to 3 lines of code.
 
-Visualizing accessibility in a region can help municipalities understand where to allocate funding and/or expand pedestrian access to key amenities. In the context of this blog post, I'm going to define accessibility as the ability of a person to travel to a destination/amenity in the shortest time possible. 
+Why is measuring urban accessibility important? Visualizing accessibility in a region can help municipalities understand where to allocate funding and/or expand pedestrian access to key amenities. In the context of this blog post, I'm going to define accessibility as the ability of a person to travel to a destination/amenity in the shortest time possible. 
 
-In this post, I'm going to do some high-level analysis on accessibility of transit networks and bike paths in two cities: Waterloo  and Toronto in Canada. This is the culmination of a series of explorations using these tools for the first time, so it's pretty exciting!
+I'm going to do some high-level analysis on accessibility of transit networks and bike paths in two cities: Waterloo  and Toronto in Canada. This is the culmination of a series of explorations using these tools for the first time, so it's pretty exciting!
 
 ---
 UrbanAccess supports every city that Open Street Map gathers data in, so feel free to try out some analyses of your own in a city of your choice!. You can use the code I used by accessing this [repository]().
 
-Contact me if you have any questions about this post or if you just want to nerd about this tool/transit with someone.
-
-MY exploration follows:
+Contact me if you have any questions about this post or if you just want to nerd about this tool/transit with me!
+My exploration follows:
 ---
 The city boundaries in this project are loosely defined as in they do not encompass the exact legal boundaries of each city but are very close; I used [bbox finder](http://bboxfinder.com/#0.000000,0.000000,0.000000,0.000000) to get a rough perimeter of the area to analyze. 
 
