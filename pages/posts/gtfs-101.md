@@ -42,7 +42,7 @@ Sure, TXT files aren't super sophisticated. But that's the point: it's *simple*.
 
 Soon enough, [many more transit agencies](http://www.gtfs-data-exchange.com/agencies) hopped on board. Most of them are large, established and based in North America. To reflect this growth, the "Google" in Google Transit Data Specification was changed to "General" because the data was slowly being used by many [third-party apps and transit planners around the world](https://gtfs.org/resources/apps/). Tech giants like Google continue to have a lot of stigma surrounding privacy and data, so renaming GTFS to something more neutral allows it to be more approachable and flexible for all uses. 
 
-This is why I'm such an advocate for GTFS. Here's why: 
+This name change is only one of the reasons I'm such an advocate for GTFS. Here's more: 
 - It's open-source; any individual developer, company, startup or agency can use the data provided by transit agencies.
 - It can be used for almost anything (not only transit planners)! Think: planning accessibility tools or timetable creation.
 - Transit is now placed on the same pedestal as cars. It's now easier to find transit directions. All you need is an internet connection.
@@ -56,6 +56,6 @@ I personally hope to be; I'm excited for what I can contribute to GTFS this year
 
 If you read this far, I urge you to switch tabs from cars to transit next time you're searching for directions. After all, a transit agency near you worked hard to make that possible.
 
-Hope you get to point B,
+Safe travels,
 
 Adriana
