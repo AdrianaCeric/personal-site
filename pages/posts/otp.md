@@ -1,12 +1,12 @@
 ---
-title: "OpenTripPlanner: The Why and and the How"
+title: "OpenTripPlanner 101"
 date: 2023/03/19
 description: The ultimate open-source, community driven trip planner
 tag: open source software, transit, maps
 image: https://aceric.vercel.app/images/beach.jpg
 ---
 
-# OpenTripPlanner: The Why and the How
+# OpenTripPlanner 101
 
 If you are looking for a reliable, flexible, and open-source solution for planning your trips using public transportation, bicycling, walking, and other mobility options, you might want to check out [OpenTripPlanner (OTP)](http://www.opentripplanner.org/). (I've been a huge fan of it for a while now!) Unlike proprietary options like Google Maps or Apple Maps, OTP is customizable, extensible, and interoperable with open standard data formats such as OpenStreetMap and GTFS.
 
