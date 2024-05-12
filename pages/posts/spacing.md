@@ -21,9 +21,9 @@ As a result of collaborative efforts led by Google and Bibiana McHugh at TriMet,
 
 ![gtfs-structure](../../public/images/gtfs.jpg)
 
-Common uses of the GTFS data specification include trip planners or mapping services that use the data to display transit information like services, delays, and schedules (McHugh, 2013). GTFS is mainly used across North America, Australia, and some countries in Western Europe where formal, developed transit agencies are commonly located (Goldstein & Dyson, 2013).
-
 <strong>Relationships within a GTFS file (Wu, et al., 2023)</strong>
+
+Common uses of the GTFS data specification include trip planners or mapping services that use the data to display transit information like services, delays, and schedules (McHugh, 2013). GTFS is mainly used across North America, Australia, and some countries in Western Europe where formal, developed transit agencies are commonly located (Goldstein & Dyson, 2013).
 
 I'm proposing a freely available, replicable, and efficient methodology for determining which bus routes should be consolidated and how! This method will be applied to Grand River Transit in the Region of Waterloo, by leveraging the newly released "gtfs-segments" Python package. The method is as follows:
 
