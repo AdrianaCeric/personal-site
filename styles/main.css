@@ -63,3 +63,16 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.gr_grid_container {
+  width: 500px;
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 39px;
+  height: 60px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
