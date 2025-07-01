@@ -11,19 +11,19 @@ export default {
     </>
   ),
   footer: (
-    <small style={{ display: 'block', marginTop: '8rem' }}>
-      <time>{YEAR}</time> © Adriana Ceric
-      <style jsx>{`
-        a {
-          float: right;
+  <small style={{ display: 'block', marginTop: '8rem' }}>
+    <time>{YEAR}</time> © Adriana Ceric
+    <style jsx>{`
+      small a {
+        float: right;
+      }
+      @media screen and (max-width: 480px) {
+        small {
+          padding-top: 2rem;
+          padding-bottom: 4rem;
         }
-        @media screen and (max-width: 480px) {
-          article {
-            padding-top: 2rem;
-            padding-bottom: 4rem;
-          }
-        }
-      `}</style>
-    </small>
-  )
+      }
+    `}</style>
+  </small>
+)
 }
