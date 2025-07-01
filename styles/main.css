@@ -56,23 +56,77 @@ img.next-image {
   margin: 0;
 }
 
-.prose a {
-  color: #ee5a5a;
+/* High specificity selectors to override theme naturally */
+html body .prose a,
+html body .nextra-content a,
+html body article a,
+html body main a {
+  color: #ff7a85;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
 }
 
+html body .prose a:hover,
+html body .nextra-content a:hover,
+html body article a:hover,
+html body main a:hover {
+  color: #ff7a85;
+  text-decoration: underline;
+}
+
+/* Target common content containers */
+.prose .content a,
+article.content a,
+div.content a,
+main.content a,
+.post-content a,
+.blog-content a {
+  color: #ff7a85;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.prose .content a:hover,
+article.content a:hover,
+div.content a:hover,
+main.content a:hover,
+.post-content a:hover,
+.blog-content a:hover {
+  color: #ff7a85;
+  text-decoration: underline;
+}
+
+/* Fallback with high specificity */
+body div a:not(.nav-link):not(.logo) {
+  color: #ff7a85;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+body div a:not(.nav-link):not(.logo):hover {
+  color: #ff7a85;
+  text-decoration: underline;
+}
+
+/* Navigation links - keep them subtle */
 .nav-line .nav-link {
   color: #69778c;
+  transition: color 0.2s ease;
 }
 
-.gr_grid_container {
-  width: 500px;
+.nav-line .nav-link:hover {
+  color: #ff7a85;
+  text-decoration: underline;
 }
 
-.gr_grid_book_container {
-  /* customize book cover container div here */
-  float: left;
-  width: 39px;
-  height: 60px;
-  padding: 0px 0px;
-  overflow: hidden;
+/* Post titles and navigation */
+.post-item a {
+  color: #ff7a85;
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.post-item a:hover {
+  color: #ff7a85; /* Stay same coral color */
+  text-decoration: underline;
 }
