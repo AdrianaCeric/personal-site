@@ -3,6 +3,7 @@ title: A New Smart Future for Cities
 date: 2022/8/21
 description: What does the future of cities look like?
 tag: smart cities, technology, ethics
+image: /images/quayside.jpeg
 ---
 
 # A New Smart Future for Cities

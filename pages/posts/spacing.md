@@ -3,7 +3,7 @@ title: "Investigating Bus Stop Spacing in the Waterloo Region"
 date: 2024/05/12
 description: An open-source approach to bus stop consolidation in the Waterloo Region
 tag: transit, gtfs, software
-image: https://aceric.vercel.app/images/beach.jpg
+image: /images/gtfs.jpg
 ---
 
 # Investigating Bus Stop Spacing in the Waterloo Region
