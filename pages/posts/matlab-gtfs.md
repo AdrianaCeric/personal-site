@@ -8,19 +8,11 @@ image: https://aceric.vercel.app/images/beach.jpg
 
 # GRT Route Stats
 
-I had some Grand River Transit (GRT) GTFS data sitting on my computer and wanted to figure out how to analyze it with MATLAB. Specifically, I was curious about three things: which stops get the most service, how trip frequency varies by route, and when buses actually run throughout the day.
+I was curious about three things about Grand River Transit's transit data: which stops get the most service, how trip frequency varies by route, and when buses actually run throughout the day.
 
-If you want to learn more about GTFS, read my [GTFS blog](gtfs-101) For those unfamiliar, GTFS (General Transit Feed Specification) is basically a standardized way transit agencies package their data. It's just a ZIP file containing CSV files with names like stops.txt, routes.txt, and trips.txt. Simple enough, but I'd never actually tried to work with it in MATLAB before.
+If you want to learn more about GTFS, read my [GTFS blog](gtfs-101)!
 
-## Getting the Data to Load
-
-The first challenge was getting MATLAB to actually read the files. My initial attempt failed with "Unable to find or open '.\stops.txt'" even though I could see the files right there. Turns out the issue was that I needed to extract the ZIP file first. Once I did that:
-
-```matlab
-stops = readtable('stops.txt', 'TextType', 'string');
-routes = readtable('routes.txt', 'TextType', 'string');  
-trips = readtable('trips.txt', 'TextType', 'string');
-stop_times = readtable('stop_times.txt', 'TextType', 'string');
+## Some Stats!
 ```
 
 The GRT dataset loaded with:
@@ -42,6 +34,8 @@ route_trip_counts = sortrows(route_trip_counts, 'GroupCount', 'descend');
 
 The bar chart showed a clear hierarchy - some routes run much more frequently than others, which makes sense for a system serving different ridership levels across the region.
 
+![Frequency](../../public/images/frequency.png)
+
 ### 2. Most Frequently Served Stops  
 Next, I counted how many times each stop appears in the schedule:
 
@@ -52,6 +46,7 @@ stop_usage = sortrows(stop_usage, 'GroupCount', 'descend');
 ```
 
 This revealed which stops are the real workhorses of the system - the ones that buses visit most often throughout the day.
+![Stop Usage](../../public/images/stop-usage.png)
 
 ### 3. Service Distribution by Hour
 For the time analysis, I had to handle MATLAB's automatic conversion of the arrival_time column to duration format:
@@ -65,6 +60,7 @@ hours = mod(hours, 24); % Handle times after midnight
 ```
 
 The histogram showed the expected peaks during morning and evening rush hours, plus the service gaps during overnight hours.
+![Service Hours](../../public/images/service-hours.png)
 
 ## A Few Practical Notes
 
@@ -80,10 +76,4 @@ The histogram showed the expected peaks during morning and evening rush hours, p
 
 The analysis confirmed some intuitive things - major routes have more frequent service, central stops see more buses, and service peaks during rush hours. But it also revealed some specific patterns in how GRT structures its network that weren't immediately obvious from just looking at a route map.
 
-Working with GTFS data in MATLAB turned out to be pretty straightforward once you get past the initial file loading. The standardized format means the same approach should work for any transit agency's data.
-
-If you're interested in trying this with your local transit data, most agencies publish their GTFS files online. Just search for "[your city] GTFS data" and you'll likely find a downloadable ZIP file to experiment with.
-
----
-
-*The complete MATLAB code for this analysis is available if anyone wants to adapt it for their own GTFS datasets.*
+If you're interested in trying this with your local transit data, let me know!
