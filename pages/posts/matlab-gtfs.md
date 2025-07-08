@@ -13,7 +13,6 @@ I was curious about three things about Grand River Transit's transit data: which
 If you want to learn more about GTFS, read my [GTFS blog](gtfs-101)!
 
 ## Some Stats!
-```
 
 The GRT dataset loaded with:
 - 2,343 stops
