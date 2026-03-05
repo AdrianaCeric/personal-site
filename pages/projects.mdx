@@ -6,71 +6,80 @@ description: A selection of Adriana's engineering and software projects, from tr
 ---
 
 import Image from 'next/image'
-import Link from 'next/link'
 
-## Net-Zero, Affordable Home in Kitchener, Ontario Canada
+<div className="project-grid">
 
-Our team was tasked to showcase a blend of architectural and engineering innovation through the design and construction of high-performance, low-carbon buildings powered by renewable energy.
-We retrofitted a century-old home in Kitchener, Ontario for a local Indigenous family , which was donated to the KWUNWP by Waterloo Region after sitting vacant for several years. We also designed an affordable two-storey house concept!
-
-- **1st Place in Engineering at the 2023 [Solar Decathlon Challenge](https://www.solardecathlon.gov/)**
-- **Featured in the [Waterloo Chronicle](https://www.waterloochronicle.ca/news/waterloo-students-win-prize-at-international-build-challenge/article_57fc6f77-1f3d-567d-b27e-49b995159139.html) and [UWaterloo News](https://uwaterloo.ca/engineering/news/waterloo-wins-prize-energy-efficient-home-contest)**
-
-<Link href="https://drive.google.com/file/d/10AIU0M6cwm90-2x22vHzoD7AN6nCME9B/view?usp=sharing" target="_blank">
+<a className="project-card" href="https://drive.google.com/file/d/10AIU0M6cwm90-2x22vHzoD7AN6nCME9B/view?usp=sharing" target="_blank" rel="noopener noreferrer">
   <Image
     src="/images/house-project.png"
     alt="Net-zero affordable home retrofit project in Kitchener, Ontario — 1st place at the 2023 Solar Decathlon"
     width={1125}
     height={750}
     priority
-    className="next-image"
+    style={{ width: '100%', height: '200px', objectFit: 'cover', margin: 0 }}
   />
-</Link>
+  <div className="project-card-body">
+    <h3>Net-Zero, Affordable Home in Kitchener, Ontario</h3>
+    <p>Retrofitted a century-old home for a local Indigenous family and designed an affordable two-storey house concept powered by renewable energy.</p>
+    <div className="project-tags">
+      <span className="project-tag">🏆 Solar Decathlon 2023</span>
+      <span className="project-tag">Featured in UWaterloo News</span>
+    </div>
+  </div>
+</a>
 
-## A Trip Planner for Atlanta
-
-Custom trip planner which can plan multi-modal (bus, rail, e-rentals, walking, biking) trips in Atlanta, Georgia built on top of OpenTripPlanner and GTFS data
-
-<Link href="https://atlrides.com/#/" target="_blank">
+<a className="project-card" href="https://atlrides.com/#/" target="_blank" rel="noopener noreferrer">
   <Image
     src="/images/trip-project.png"
     alt="Multi-modal trip planner for Atlanta showing bus, rail, bike, and walking routes"
     width={1125}
     height={750}
-    className="next-image"
+    style={{ width: '100%', height: '200px', objectFit: 'cover', margin: 0 }}
   />
-</Link>
+  <div className="project-card-body">
+    <h3>A Trip Planner for Atlanta</h3>
+    <p>Multi-modal trip planner for Atlanta (bus, rail, e-rentals, walking, biking) built on OpenTripPlanner and GTFS data.</p>
+    <div className="project-tags">
+      <span className="project-tag">OpenTripPlanner</span>
+      <span className="project-tag">GTFS</span>
+    </div>
+  </div>
+</a>
 
-## Settlegration
-
-A mobile app that connects Canadian newcomers with locals through volunteer-based services
-
-**2018 [Technovation](https://technovationchallenge.org/) Toronto Winners & Global Semifinalists**
-
-<Link href="https://www.youtube.com/watch?v=Fz_NGOz-FK0&ab_channel=MarinaIlyas" target="_blank">
+<a className="project-card" href="https://www.youtube.com/watch?v=Fz_NGOz-FK0&ab_channel=MarinaIlyas" target="_blank" rel="noopener noreferrer">
   <Image
     src="/images/settle-project.png"
     alt="Settlegration app screenshot — connecting Canadian newcomers with local volunteers"
     width={1125}
     height={750}
-    className="next-image"
+    style={{ width: '100%', height: '200px', objectFit: 'cover', margin: 0 }}
   />
-</Link>
+  <div className="project-card-body">
+    <h3>Settlegration</h3>
+    <p>Mobile app connecting Canadian newcomers with locals through volunteer-based services.</p>
+    <div className="project-tags">
+      <span className="project-tag">🏆 Technovation Toronto 2018</span>
+      <span className="project-tag">Global Semifinalists</span>
+    </div>
+  </div>
+</a>
 
-## Timber Design Project
+<div className="project-card-static">
+  <Image
+    src="/images/timber.png"
+    alt="Timber design project drawings for an emergency station, designed using the Canadian Wood Design Manual"
+    width={1125}
+    height={750}
+    style={{ width: '100%', height: '200px', objectFit: 'cover', margin: 0 }}
+  />
+  <div className="project-card-body">
+    <h3>Timber Design Project</h3>
+    <p>Designed an emergency station with a team of four, sizing structural members for dead, snow, and wind loads using the Canadian Wood Design Manual.</p>
+    <div className="project-tags">
+      <span className="project-tag">Structural Engineering</span>
+      <span className="project-tag">AutoCAD</span>
+    </div>
+  </div>
+</div>
 
-Worked in a team of four to design an emergency station out of timber using the Canadian Wood Design Manual.
-
-- Determined loading requirements by accounting for the dead load, snow load, and wind load, to size the structural members
-- Selected beam and column locations and sizes by iteration to determine the most cost-efficient alternative
-- Produced design drawings with details of specific sections using AutoCAD
-
-<Image
-  src="/images/timber.png"
-  alt="Timber design project drawings for an emergency station, designed using the Canadian Wood Design Manual"
-  width={1125}
-  height={750}
-  className="next-image"
-/>
-
-### More Coming Soon...
+</div>

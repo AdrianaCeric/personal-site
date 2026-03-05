@@ -1,9 +1,9 @@
 ---
-title: "GRT Route Stats"
+title: 'GRT Route Stats'
 date: 2025/06/27
 description: Getting some stats from GRT GTFS
 tag: open source software, gtfs, transit, maps
-image: https://aceric.vercel.app/images/beach.jpg
+image: https://aceric.vercel.app/images/frequency.png
 ---
 
 # GRT Route Stats
@@ -15,14 +15,16 @@ If you want to learn more about GTFS, read my [GTFS blog](gtfs-101)!
 ## Some Stats!
 
 The GRT dataset loaded with:
+
 - 2,343 stops
-- 53 routes  
+- 53 routes
 - 11,319 trips
 - 327,744 scheduled stop times
 
 ## Three Questions, Three Charts
 
 ### 1. Service Frequency by Route
+
 First, I wanted to see which routes have the most trips. This required counting trips per route and sorting them:
 
 ```matlab
@@ -35,7 +37,8 @@ The bar chart showed a clear hierarchy - some routes run much more frequently th
 
 ![Frequency](../../public/images/frequency.png)
 
-### 2. Most Frequently Served Stops  
+### 2. Most Frequently Served Stops
+
 Next, I counted how many times each stop appears in the schedule:
 
 ```matlab
@@ -48,6 +51,7 @@ This revealed which stops are the real workhorses of the system - the ones that 
 ![Stop Usage](../../public/images/stop-usage.png)
 
 ### 3. Service Distribution by Hour
+
 For the time analysis, I had to handle MATLAB's automatic conversion of the arrival_time column to duration format:
 
 ```matlab

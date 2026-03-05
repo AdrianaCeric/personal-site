@@ -5,15 +5,57 @@ date: 2021-03-18
 description: A gallery of Adriana's paintings — oil, gouache, and acrylic works inspired by cities, streets, and the Adriatic Sea.
 ---
 
+import { useEffect, useRef } from 'react'
+
+export function Gallery() {
+  const ref = useRef(null)
+
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    let isDown = false
+    let startX, scrollLeft
+
+    const onMouseDown = (e) => {
+      isDown = true
+      startX = e.pageX - el.offsetLeft
+      scrollLeft = el.scrollLeft
+    }
+    const onMouseLeave = () => { isDown = false }
+    const onMouseUp = () => { isDown = false }
+    const onMouseMove = (e) => {
+      if (!isDown) return
+      e.preventDefault()
+      const x = e.pageX - el.offsetLeft
+      el.scrollLeft = scrollLeft - (x - startX) * 1.5
+    }
+
+    el.addEventListener('mousedown', onMouseDown)
+    el.addEventListener('mouseleave', onMouseLeave)
+    el.addEventListener('mouseup', onMouseUp)
+    el.addEventListener('mousemove', onMouseMove)
+    return () => {
+      el.removeEventListener('mousedown', onMouseDown)
+      el.removeEventListener('mouseleave', onMouseLeave)
+      el.removeEventListener('mouseup', onMouseUp)
+      el.removeEventListener('mousemove', onMouseMove)
+    }
+  }, [])
+
+  return (
+    <div className="art-gallery" ref={ref}>
+      <img src="/images/beach.jpg" alt="Painting of a beach scene" draggable="false" />
+      <img src="/images/rock.jpg" alt="Painting of rocks along the coast" draggable="false" />
+      <img src="/images/boat.jpg" alt="Painting of a boat on the water" draggable="false" />
+      <img src="/images/spain.webp" alt="Painting inspired by Spanish architecture and streets" draggable="false" />
+      <img src="/images/house.jpg" alt="Painting of a house" draggable="false" />
+      <img src="/images/jug.jpg" alt="Painting of a ceramic jug" draggable="false" />
+    </div>
+  )
+}
+
 # Gallery
 
 I love experimenting with blends of oil, gouache and acrylic in a playful style. I am inspired by the colourful cities, urban forms, streets, and the Adriatic Sea. If you would like to purchase a piece, [contact me!](mailto:adriana.ceric@gmail.com)
 
-Some select pieces of mine:
-
-![Painting of a beach scene](/images/beach.jpg)
-![Painting of rocks along the coast](/images/rock.jpg)
-![Painting of a boat on the water](/images/boat.jpg)
-![Painting inspired by Spanish architecture and streets](/images/spain.webp)
-![Painting of a house](/images/house.jpg)
-![Painting of a ceramic jug](/images/jug.jpg)
+<Gallery />
