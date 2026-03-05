@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next",
-    "build": "node ./scripts/gen-rss.js && next build",
+    "build": "node ./scripts/gen-rss.js && next build && next-sitemap",
     "start": "next start"
   },
   "dependencies": {
@@ -26,5 +26,8 @@
     "tabWidth": 2,
     "trailingComma": "none",
     "semi": false
+  },
+  "devDependencies": {
+    "next-sitemap": "^4.2.3"
   }
 }
