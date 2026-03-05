@@ -10,7 +10,7 @@ image: https://aceric.vercel.app/images/google-maps.jpg
 
 You just arrived to a new city, got your bus pass and you're trying to get to that restaurant your friend recommended you. How do you get there? For many, a trip planning process like this involves trip planners or online map platforms like Google Maps.
 
-As an example, let's find transit route options from Toronto's Union Station to Toronto Pearson Airport on Google Maps. You'll quickly find that it recommends a train route directly to the airport including it's departure time, departure frequency, transit agency and mode of transport:
+As an example, let's find transit route options from Toronto's Union Station to Toronto Pearson Airport on Google Maps. You'll quickly find that it recommends a train route directly to the airport including its departure time, departure frequency, transit agency and mode of transport:
 
 ![google-maps](../../public/images/google-maps.jpg)
 <sub>Google Maps in 2022. **Credits**: My screenshot (also Google)</sub>
@@ -34,7 +34,7 @@ Here's how it's broken down:
 
 ![drawing](../../public/images/drawing-gtfs.jpg)
 
-Each text file (with a .txt extension) has it's own information, say stop times and agency name, separated by commas:
+Each text file (with a .txt extension) has its own information, say stop times and agency name, separated by commas:
 
 ![txt file](../../public/images/txt-file.png)
 
@@ -46,7 +46,7 @@ This name change is only one of the reasons I'm such an advocate for GTFS. Here'
 - It's open-source; any individual developer, company, startup or agency can use the data provided by transit agencies.
 - It can be used for almost anything (not only transit planners)! Think: planning accessibility tools or timetable creation.
 - Transit is now placed on the same pedestal as cars. It's now easier to find transit directions. All you need is an internet connection.
-- Smaller transit agencies have more publicity and more ridership from newcomers of foreigners.
+- Smaller transit agencies have more publicity and more ridership from newcomers or foreigners.
 - Frequent riders now have real time updates of transit delays using [GTFS realtime](https://developers.google.com/transit/gtfs-realtime).
 - For the average transit IT worker, it's not overly hard to use. Impactful things don't have to be complex.
 

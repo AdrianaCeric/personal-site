@@ -19,7 +19,7 @@ Valencia is characterized by a big port, paella and the Silk Exchange. Moorish a
 <sub>< 3</sub>
 
 ## The Workshop
-It happened by pure circumstance that the [MobilityData](https://mobilitydata.org/) workshop and the OpenTripPlanner Open Days conferences would both be occuring while I was on family vacation. It was one of those coincidences that you can't really comprehend, but it seems Valencia was *the* destination that year for transit enthusiasts of all backgrounds and I just had to go. The workshop invited folks from industry, non-profits and students to discuss current transit data standardization practices. Sticky notes, markers and big voices in transit all gathered in classrooms at the [Valencia Polytechnic University (Universidad Politécnica de Valencia (UPV)](https://www.upv.es/en/). 
+It happened by pure circumstance that the [MobilityData](https://mobilitydata.org/) workshop and the OpenTripPlanner Open Days conferences would both be occurring while I was on family vacation. It was one of those coincidences that you can't really comprehend, but it seems Valencia was *the* destination that year for transit enthusiasts of all backgrounds and I just had to go. The workshop invited folks from industry, non-profits and students to discuss current transit data standardization practices. Sticky notes, markers and big voices in transit all gathered in classrooms at the [Valencia Polytechnic University (Universidad Politécnica de Valencia (UPV)](https://www.upv.es/en/). 
 
 ![me-w-ppl](../../public/images/me.jpg)
 <sub>The university</sub>
@@ -40,13 +40,13 @@ It happened by pure circumstance that the [MobilityData](https://mobilitydata.or
 <sub>OpenTripPlanner!</sub>
 
 There were a TON of insights and anecdotes I gathered from these two conferences and I'll try to distill a few of them here:
-1. GTFS/GTFS-rt (see [my blog on GTFS](/posts/gtfs-101) to learn more) and NeTEx are two similar yet very seperate transit data standards in terms of complexity and use. NeTEx is not only used in Europe it's now being used in Australia. I kind of wish there were on global transit standard, but with a lot of handoff and international differences, it's become hard to truely *standardize* everything into one format.
-2. There is a huge lack of exposure of transit data and transit technology in classrooms and to new learners. Most people don't understand what powers a search query on a trip planning app, and where that data is consumed, produced and transformed. Even more, this information isn't being taught in specialized urban planning or transportation engineering courses. Transit data as a concept is largely congregated through the work of organizations whether they be public or private. Further, the discussions, motions and decisions on CSV changes to GTFS are primarliy led by a few "power maintainers" in MobilityData repositories.
+1. GTFS/GTFS-rt (see [my blog on GTFS](/posts/gtfs-101) to learn more) and NeTEx are two similar yet very separate transit data standards in terms of complexity and use. NeTEx is not only used in Europe it's now being used in Australia. I kind of wish there were on global transit standard, but with a lot of handoff and international differences, it's become hard to truly *standardize* everything into one format.
+2. There is a huge lack of exposure of transit data and transit technology in classrooms and to new learners. Most people don't understand what powers a search query on a trip planning app, and where that data is consumed, produced and transformed. Even more, this information isn't being taught in specialized urban planning or transportation engineering courses. Transit data as a concept is largely congregated through the work of organizations whether they be public or private. Further, the discussions, motions and decisions on CSV changes to GTFS are primarily led by a few "power maintainers" in MobilityData repositories.
 3. What constitutes quality data? Where can producers and consumers find examples
 4. Global student ambassadors, transit data competitions/hackathons, and curriculums or YouTube channels are excellent ways to bring students into the transit data conversation
 5. This one is an issue for me: OpenTripPlanner is very complex for new learners, especially those outside of organizations that actively use it (see a [setup tutorial](/posts/otp) I tried to put together). Despite that, OpenTripPlanner is very cool, is very well maintained and should be more widely used and known.
 6. The best way to go about attending a workshop or conference is to listen more than speak. Also, get contact information.
-7. The transit community is very well-connected, open, generally diverse and friendly. I definitley see myself in this industry for a longer time.
+7. The transit community is very well-connected, open, generally diverse and friendly. I definitely see myself in this industry for a longer time.
 
 To more travels,
 

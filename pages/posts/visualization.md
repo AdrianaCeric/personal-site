@@ -16,7 +16,7 @@ Why is measuring urban accessibility important? Visualizing accessibility in a r
 I'm going to do some high-level analysis on accessibility of transit networks and bike paths in two cities: Waterloo  and Toronto in Canada. This is the culmination of a series of explorations using these tools for the first time, so it's pretty exciting!
 
 ---
-UrbanAccess supports every city that OpenStreetMap gathers data in, so feel free to try out some analyses of your own in a city of your choice!. You can use the code I used by accessing this [repository]().
+UrbanAccess supports every city that OpenStreetMap gathers data in, so feel free to try out some analyses of your own in a city of your choice! You can use the code I used by accessing this [repository]().
 
 My exploration follows:
 ---
@@ -34,7 +34,7 @@ You might have a lot of questions. Don't worry, same! There's a lot to unpack he
 - What do the dots on the map represent?
 - If it's accessible within 200m, I'm still unsure as to where the starting points of those measurements are from.
 
-Over time, I hope to get some of these answers and update this post when that time comes. For now, I'm just happy my code ran and that I was able to learn so much about GTFS/OMSnx/Pandana/OpenStreetMap along the way.
+Over time, I hope to get some of these answers and update this post when that time comes. For now, I'm just happy my code ran and that I was able to learn so much about GTFS/OSMnx/Pandana/OpenStreetMap along the way.
 
 More to come,
 

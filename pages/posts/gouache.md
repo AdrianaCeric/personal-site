@@ -17,12 +17,12 @@ Before discovering gouache, I preferred oil paints because of their wide range o
 
 Then one day I found an old set of gouache paints collecting dust in my cupboard. Before trying them out, I looked up opinions online. The artist community was divided; people either loved or hated gouache. So I decided to test it for myself.
 
-My first gouache painting is shown above. I used the Lefranc & Bourgeois Linel Artist’s Gouache on watercolour paper. I have to admit, the medium is alarmingly different from the rest. It is almost exactly similar to how it is called — very “gouache-y.” In that I mean it is almost has a gooey consistency, but not in a sticky way, more like Kinetic Sand. The texture and appearance of gouache paint reminded me of matte lipstick - familiar but trendy and different. Despite its texture, it adhered well to watercolor paper and was great for quick compositions and cards!
+My first gouache painting is shown above. I used the Lefranc & Bourgeois Linel Artist’s Gouache on watercolour paper. I have to admit, the medium is alarmingly different from the rest. It is almost exactly similar to how it is called — very “gouache-y.” In that I mean it almost has a gooey consistency, but not in a sticky way, more like Kinetic Sand. The texture and appearance of gouache paint reminded me of matte lipstick - familiar but trendy and different. Despite its texture, it adhered well to watercolor paper and was great for quick compositions and cards!
 
 So, why would anyone want to paint with matte lipstick Kinetic Sand paint? Many reasons:
 
 ### 1. The Matte Finish 
-Gouache provides an opaque and deep colour that can easily applied and ultimately turns out uniform. Bonus: that helps with taking accurate pictures since it eliminates glare.
+Gouache provides an opaque and deep colour that can be easily applied and ultimately turns out uniform. Bonus: that helps with taking accurate pictures since it eliminates glare.
 
 ### 2. Easy Cleanup
 If you want the opaqueness that oil provides you, but despise the tedious amount of hard-to-remove residue that it comes with, gouache is for you. It wipes off glass like watercolour!
@@ -41,7 +41,7 @@ Nothing's perfect, though. Gouache does have a few inconsistencies:
 - You will run out of white fast — beware. Buy two tubes if possible.
 - Gouache paint dries darker after application on paper (why you need more of the white to get those brighter tones).
 
-All you have to do now is take my word and get some water, a paintbrush and some get your hands on some matte lipstick Kinetic Sand paint.
+All you have to do now is take my word for it and get your hands on some water, a paintbrush, and some matte lipstick Kinetic Sand paint.
 
 
 
