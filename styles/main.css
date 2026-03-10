@@ -92,25 +92,48 @@ body a:not(.nav-link):not(.logo):hover {
   }
 }
 
+/* Rough border wrapper — sits outside overflow:hidden so the filter can bleed */
+.card-wrap {
+  position: relative;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-wrap:has(a):hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+}
+
+.card-wrap::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border: 2.5px solid #ff7a85;
+  border-radius: 14px;
+  filter: url(#hand-drawn);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.card-wrap-gray::before {
+  border-color: #d1d5db;
+}
+
 .project-card {
-  border: 1px solid #e5e7eb;
   border-radius: 12px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   color: inherit !important;
   text-decoration: none !important;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   text-decoration: none !important;
 }
 
 .project-card-static {
-  border: 1px solid #e5e7eb;
   border-radius: 12px;
   overflow: hidden;
   display: flex;
@@ -164,9 +187,16 @@ body a:not(.nav-link):not(.logo):hover {
 }
 
 /* Dark mode */
-html.dark .project-card,
-html.dark .project-card-static {
-  border-color: #374151;
+html.dark .card-wrap {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+html.dark .card-wrap:has(a):hover {
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.35);
+}
+
+html.dark .card-wrap-gray::before {
+  border-color: #4b5563;
 }
 
 html.dark .project-card-body p {
